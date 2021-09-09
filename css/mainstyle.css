@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Darker+Grotesque:wght@300&display=swap');
+body{
+	font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+	color: #4E4E4E;
+}
+h1{
+	font-family: 'Charm', cursive; 
+/*	color: #58732F;*/
+}
+a{
+	color: darkolivegreen;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: none;
+	color: darkorange;
+}
+.dropdown-item {
+	color: #fff;
+	border-bottom: 1px solid #ccc 
+}
+footer{
+	background: url("../images/bg-footer.jpg") no-repeat;
+	min-height: 650px;
+	background-size: 100% 100%;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+footer h3{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.page-title{
+	background: url("../images/bg-tieude-blog.jpg") no-repeat center top;
+	min-height: 320px;
+	font-size:24px;
+}
+.p-gioithieu{
+	background: url("../images/About/bannerab.png") 
+}
+.p-raucu{
+	background: url("../images/Rau cu/Rectangle.png")
+}
+.p-lienhe{
+	background: url( "../images/lien he/18.jpg");
+    height: 200px
+}
+.p-traicay{
+	background: url("../images/Trai cay/Rectangle_19.jpg");
+	height: 200px
+}
+.p-dangnhap{
+	background: url( "../images/dang nhap/Rectangle_18.jpg");
+	height: 200px
+}
+.p-huongdan{
+	background: url( "../images/huong dan/banner huongdan.jpg");
+	height: 200px
+}
+.register{
+	padding: 50px 20px;
+	border-radius: 20px;
+}
+td{
+	padding: 10px;
+}
+input{
+	width: 300px;
+	height: 50px;
+	padding: 10px 10px 10px 5px;
+	box-sizing: border-box;
+	outline: none;
+	background: transparent;
+	color: #58732F;
+	border: 1px solid #58732F;
+	border-radius: 10px;
+}
+button{
+	width: 50%;
+	padding: 10px 10px;
+	color: antiquewhite;
+	background: #58732F;
+	border: none;
+	border-radius: 10px;
+}
+tendangnhap{
+	
+}
+aside .nav-link{
+	color:#333;
+	font-size: 24px;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+}
+aside .nav-link:hover{
+	background:rgba(149,196,101,1.00);
+	color:white;
+}
+aside h4{font-weight: bold}
+.btn-docthem{
+	text-transform: uppercase;
+	color:darkolivegreen;
+	font-weight: bold;
+	text-decoration: none;
+}
+.btn-docthem:hover{
+	color: darkorange;
+}
+	
+	@media (max-width:500px){
+	footer{
+	background-color:#58732F;
+	background-image: none;
+	padding-top: 20px}
+}
+/*style carousel banner*/
+	
+#banner .carousel-caption{
+	position: absolute;
+/*	border: 1px solid #f00;*/
+	top: 20%;
+	text-align: left;
+	width: 40%;
+	left: 40%;
+	font-size: 24px;
+} 
+#banner .carousel-caption h1{
+	font-size: 4rem;
+}
+#banner .carousel-caption .btn{
+	font-size: 24px;
+}
+@media (max-width:1200px){
+#banner .carousel-caption{
+	position: absolute;
+	top:15%;
+	width: 60%;
+	left: 30%;
+	font-size: 24px;
+	}
+}
+
+@media (max-width:997px){
+#banner .carousel-caption{
+	position: absolute;
+	top:15%;
+	width: 70%;
+	left: 20%;
+	font-size: 20px;
+	text-align: center;
+	}
+#banner .carousel-caption h1{
+	font-size: 2rem;
+    }	
+#banner .carousel-caption .btn{
+	font-size: 15px;
+    }
+}
+
+@media (max-width:500px){
+#banner .carousel-caption{
+	font-size: 14px;	
+	}	
+#banner .carousel-caption h1{
+	font-size: 1.5rem;
+	}
+#banner .carousel-caption .btn{
+	display: none;
+    }
+#banner .carousel-indicators{
+	bottom: -10px;	
+	}	
+}
+.green-box{
+	background: #58732F;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	height: 130px;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	top: -20px;
+	padding: 25px;
+}
+
+.green-box1{
+	background: #58732F;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	left: 10%;
+	top: -400px;
+	padding: 25px;
+	opacity: 0.9;
+}
+
+.box-icon{
+	height: 190px;
+	width: 200px;
+	text-align: center;
+}
+#blog{
+	font-size: 22px;
+}
+#Accordion{
+	border-radius: 10px;
+	border: 1px solid #58732F;
+	left: 10%;
+	top: -400px;
+	padding: 25px;
+}
+#Accordion2{
+	border-radius: 10px;
+	border: 1px solid #58732F;
+	left: 10%;
+	top: -400px;
+	padding: 25px;
+}
